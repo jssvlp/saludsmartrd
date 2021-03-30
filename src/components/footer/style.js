@@ -1,32 +1,42 @@
 const  styles = ({
     footer:{
-      marginTop:20,
-      height:"20",
+      height:230,
       backgroundColor:"#43C93E",
       color:"#000000",
     },
 
-    div1:{
-        backgroundColor:"#000000"
- 
-    },
-
-    div2:{
-        backgroundColor:"#43C93E"
- 
-    },
-
-    div3:{
-        backgroundColor:"#001AFF"
- 
-    },
 
 
     Centro:{
+        color:"#FFFFFF",
         alignItems:"center",
         justifyContent:"center",
-        height:200,
-        textAlign:"center"
+        textAlign:"center",
+        boxShadow: "1px 0px 0px #ffffff",
+        paddingTop: 11,
+
+
+    },
+
+    lado:{
+        paddingLeft: 2,
+    },
+
+    derecha:{
+        color:"#FFFFFF",
+        alignItems:"center",
+        justifyContent:"center",
+        textAlign:"center",
+        boxShadow: "1px 0px 0px #ffffff",
+        paddingTop: 11,
+
+    },
+    izquierda:{
+        color:"#FFFFFF",
+        alignItems:"center",
+        justifyContent:"center",
+        textAlign:"center",
+
     },
 
     div:{
@@ -34,6 +44,23 @@ const  styles = ({
         justifyContent:"center",
         textAlign:"center"
       
+    },
+
+    media:{
+        backgroundColor:"#FFFFFF"
+    },
+
+    linea:{
+        width: 1,
+        backgroundColor:"#000000",
+         height: 200,
+         float:"left"
+        
+    },
+
+    copy:{
+        backgroundColor:"#43C21E",
+        paddingLeft: 700
     }
     
     });
