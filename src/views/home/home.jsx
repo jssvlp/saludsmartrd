@@ -1,9 +1,20 @@
 
-
+import Category from "../../components/category/category"
 function Home() {
     return (
-        <div className="App">
-           <h1>hola mudo</h1>
+        <div className="container">
+           <div className={'row'}>
+               <div className={"col-md-4"}>
+                   <Category name={'MEDICINA'}/>
+               </div>
+               <div className={"col-md-4"}>
+
+               </div>
+               <div className={"col-md-4"}>
+
+               </div>
+
+           </div>
         </div>
     );
 }

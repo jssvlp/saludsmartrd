@@ -1,0 +1,22 @@
+.center {
+    width:80%;
+    height:900px;
+    position: relative;
+    background-color: white;
+    top: 70%;
+    left: 50%;
+    margin-top: -350px;
+    margin-left: -40%;
+    box-shadow: 0 15px 30px 0 rgba(165, 165, 165, 0.2), 0 15px 30px 0 rgba(150, 150, 150, 0.19);
+    border-radius: 15px;
+    padding: 1%;
+}
+
+@media screen and (max-width: 450px) {
+    .center{
+        margin-top: -150px;
+        margin-left: -40%;
+    }
+}
+
+
