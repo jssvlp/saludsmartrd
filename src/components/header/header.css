@@ -1,0 +1,45 @@
+header {
+    height: 800px;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+    background: #000000;  /* fallback colour. Make sure this is just one solid colour. */
+    background: linear-gradient(rgb(57, 163, 4), rgba(0, 0, 0, 0.6)),
+    url("https://firebasestorage.googleapis.com/v0/b/saludsmart-9edc2.appspot.com/o/fondo1.jpeg?alt=media&token=b2a915f8-e121-4d80-81d7-b2a60180c97a");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+img {
+    object-fit: cover;
+}
+
+link-nav{
+    padding: 10%;
+}
+
+
+.text-header{
+    font-size: 90px;
+    color: white;
+    font-weight: bold;
+    padding-top: 7%;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+    .text-header {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .text-header {
+        font-size: 50px;
+    }
+    header{
+        height: 400px;
+    }
+}
