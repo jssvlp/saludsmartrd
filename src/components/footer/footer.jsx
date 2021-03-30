@@ -1,8 +1,27 @@
+import style from "./style.js"
+
 function footer() {
     return (
-        <div className="App">
-            <h1>footer</h1>
-        </div>
+        
+        
+        <div class="container">
+            <div class="row">
+               <div class="col-sm">
+                 One of three columns
+                </div>
+               <div class="col-sm">
+               One of three columns
+               </div>
+               <div class="col-sm">
+               One of three columns
+               </div>
+         </div>
+      </div>
+       
+   
+        
+    
+      
     );
 }
 
