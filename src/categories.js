@@ -39,6 +39,7 @@ const categories = [
         show:false,
         url: 'https://firebasestorage.googleapis.com/v0/b/saludsmart-9edc2.appspot.com/o/nutricio%CC%81n.jpeg?alt=media&token=bdd04b9b-7402-4187-a59a-0db96d6ea675'
     }
+    
 ];
 
 

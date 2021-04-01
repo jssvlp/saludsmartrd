@@ -32,7 +32,7 @@ function Nav() {
                                             data.show&&
                                             <li  className="nav-item">
                                                 <Link
-                                                    className="nav-link active"
+                                                    className="nav-link active zoommedicina"
                                                     onClick={()=> setSelect(data.path)}
                                                     key={i} to={data.path}
                                                     style={{color:"white", textDecoration: select === data.path? 'underline' : 'none'}} >
@@ -51,6 +51,7 @@ function Nav() {
                 </nav>
                 <div className={'text-center'}>
                     <h1 className={'text-header'}>{select === '/home'?'SALUD INTELIGENTE':select.split('/')[1]}</h1>
+                    <h4 className={'text-white'}>Conoce como puedes llevar una vida mas saludable con nosotros!</h4>
                 </div>
             </section>
     </header>

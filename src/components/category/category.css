@@ -7,3 +7,13 @@
     overflow: hidden;
     background: #000000;  /* fallback colour. Make sure this is just one solid colour. */
 }
+.zoom {
+    transition: transform 0.2s;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05);
+    cursor: pointer;
+}
