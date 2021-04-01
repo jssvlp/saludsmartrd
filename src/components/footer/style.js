@@ -1,5 +1,8 @@
 const  styles = ({
     footer:{
+        
+        overflow: "hidden",
+        bottom: 0,
       
       backgroundColor:"#43C93E",
       color:"#000000",
@@ -9,8 +12,6 @@ const  styles = ({
 
     Centro:{
         color:"#FFFFFF",
-        alignItems:"center",
-        justifyContent:"center",
         textAlign:"center",
         boxShadow: "1px 0px 0px #ffffff",
         
@@ -23,7 +24,6 @@ const  styles = ({
     derecha:{
         color:"#FFFFFF",
         alignItems:"center",
-        justifyContent:"center",
         textAlign:"center",
         boxShadow: "1px 0px 0px #ffffff",
        
@@ -31,15 +31,12 @@ const  styles = ({
     },
     izquierda:{
         color:"#FFFFFF",
-        alignItems:"center",
-        justifyContent:"center",
         textAlign:"center",
 
     },
 
     div:{
-        alignItems:"center",
-        justifyContent:"center",
+
         textAlign:"center"
       
     },
