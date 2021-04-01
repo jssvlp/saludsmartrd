@@ -51,7 +51,7 @@ function Nav() {
                 </nav>
                 <div className={'text-center'}>
                     <h1 className={'text-header'}>{select === '/home'?'SALUD INTELIGENTE':select.split('/')[1]}</h1>
-                    <h4 className={'text-white'}>Conoce como puedes llevar una vida mas saludable con nosotros!</h4>
+                    {select === '/home'&&(<h4 className={'text-white'}>Conoce como puedes llevar una vida mas saludable con nosotros!</h4>)}
                 </div>
             </section>
     </header>

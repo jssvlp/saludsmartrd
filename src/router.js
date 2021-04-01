@@ -1,6 +1,7 @@
 import Home from "./views/home/home";
 import page404 from "./views/404/404";
 import Noticias from "./views/noticias/noticias"
+import Medicina from "./views/categories/medicina";
 
 const routers = [
 
