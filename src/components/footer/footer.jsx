@@ -57,7 +57,7 @@ function footer() {
          
       </div>
 
-      <div style = {
+      <div className ="col-md-12" style = {
              style.copy
          }>RocketMind © {new Date().getFullYear()}</div>
 
