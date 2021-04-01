@@ -1,6 +1,7 @@
 import Cards from "../../components/cards/cards"
 import content from "../../content";
-function Medicina() {
+
+function Ejercicio() {
     return (
         <div className="App">
 
@@ -11,7 +12,7 @@ function Medicina() {
                     </div>
                 )}
                 {content.map((data,i)=>
-                    data.category === 'medicina'&&(
+                    data.category === 'ejercicio'&&(
                         <Cards
                             Title ={data.name}
                             img={data.img_card}
@@ -31,4 +32,4 @@ function Medicina() {
     );
 }
 
-export default Medicina;
+export default Ejercicio;

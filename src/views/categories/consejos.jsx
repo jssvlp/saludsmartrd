@@ -1,6 +1,8 @@
 import Cards from "../../components/cards/cards"
 import content from "../../content";
-function Medicina() {
+
+function Consejos() {
+    console.log(content)
     return (
         <div className="App">
 
@@ -11,7 +13,7 @@ function Medicina() {
                     </div>
                 )}
                 {content.map((data,i)=>
-                    data.category === 'medicina'&&(
+                    data.category === 'consejos'&&(
                         <Cards
                             Title ={data.name}
                             img={data.img_card}
@@ -31,4 +33,4 @@ function Medicina() {
     );
 }
 
-export default Medicina;
+export default Consejos;

@@ -5,6 +5,7 @@ import Header from "./components/header/header"
 import  Footer from './components/footer/footer'
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 import Body from "./components/body/body"
+import NotFound from "./views/404/404"
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
                       )} />
                   )
               }
+              <Route component={NotFound} />
           </Switch>
           <br/><br/>
           <Footer/>

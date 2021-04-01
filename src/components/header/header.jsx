@@ -8,6 +8,7 @@ import {React, useState} from 'react'
 function Nav() {
 
     const [select, setSelect] = useState('')
+    let pathname = window.location.pathname.substring(1)
     console.log(select)
     return (
     <header>
@@ -32,7 +33,7 @@ function Nav() {
                                             data.show&&
                                             <li  className="nav-item">
                                                 <Link
-                                                    className="nav-link active zoommedicina"
+                                                    className="nav-link active zoom "
                                                     onClick={()=> setSelect(data.path)}
                                                     key={i} to={data.path}
                                                     style={{color:"white", textDecoration: select === data.path? 'underline' : 'none'}} >
@@ -50,8 +51,8 @@ function Nav() {
                     </div>
                 </nav>
                 <div className={'text-center'}>
-                    <h1 className={'text-header'}>{select === '/home'?'SALUD INTELIGENTE':select.split('/')[1]}</h1>
-                    {select === '/home'&&(<h4 className={'text-white'}>Conoce como puedes llevar una vida mas saludable con nosotros!</h4>)}
+                    <h1 className={'text-header'}>{select === '/home' || select === ''?'SALUD INTELIGENTE':pathname.split('/')[0] +(pathname.split('/')[1]?' / ':'')+(pathname.split('/')[1]?pathname.split('/')[1]:'') }</h1>
+                    {select === '/home' || select === '' &&(<h4 className={'text-white'}>Conoce como puedes llevar una vida mas saludable con nosotros!</h4>)}
                 </div>
             </section>
     </header>

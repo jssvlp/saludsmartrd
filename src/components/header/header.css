@@ -34,6 +34,11 @@ link-nav{
         font-size: 70px;
     }
 }
+@media screen and (max-width: 1000px) {
+    .text-header {
+        font-size: 70px;
+    }
+}
 
 @media screen and (max-width: 450px) {
     .text-header {
