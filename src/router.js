@@ -21,6 +21,12 @@ const routers = [
         show:true
     },
 
+    {
+        path: '/medicina',
+        component: Medicina,
+        exact: true,
+        show:false
+    },
 
     {
         path: '/nosotros',
