@@ -1,17 +1,22 @@
 import Cards from "../../components/cards/cards"
 import content from "../../content";
+import Helpers from "../../helpers/helpers"
+
+
+
+
 
 function Consejos() {
-    console.log(content)
+
+
+    console.log(content, Helpers.isExist())
     return (
         <div className="App">
 
             <div className="row">
-                {content.length === 0&&(
-                    <div className={'col-md-12 text-center'}>
-                        <h3>No hay contenido publicado</h3>
-                    </div>
-                )}
+                {/* load msg */}
+                { Helpers.isExist('consejos')}
+
                 {content.map((data,i)=>
                     data.category === 'consejos'&&(
                         <Cards
