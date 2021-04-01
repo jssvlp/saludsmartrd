@@ -60,7 +60,8 @@ const  styles = ({
 
     copy:{
         backgroundColor:"#43C21E",
-        paddingLeft: 700
+        paddingLeft: 700,
+        color:"#ffffff"
     }
     
     });
