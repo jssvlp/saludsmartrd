@@ -4,6 +4,10 @@ const  styles = ({
         backgroundColor:"#43C93E",
         color:"#ffffff"
 
+    },
+
+    FORM:{
+        paddingTop: 30,
     }
 
 })
