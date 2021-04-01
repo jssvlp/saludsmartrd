@@ -5,6 +5,7 @@ import {
 import "./header.css"
 import routers from '../../router'
 import {React, useState} from 'react'
+import Search from "../search/search";
 function Nav() {
 
     const [select, setSelect] = useState('')
@@ -26,12 +27,13 @@ function Nav() {
 
                             </ul>
                             <div className="d-flex">
+                                <Search/>
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
                                     {
                                         routers&&routers.map((data,i)=>
                                             data.show&&
-                                            <li  className="nav-item">
+                                            <li  className="nav-item" >
                                                 <Link
                                                     className="nav-link active zoom "
                                                     onClick={()=> setSelect(data.path)}

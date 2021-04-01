@@ -1,0 +1,11 @@
+
+
+
+.search{
+    padding: 1%;
+    background: rgba(0, 0, 0, 0) url('https://firebasestorage.googleapis.com/v0/b/saludsmart-9edc2.appspot.com/o/search.png?alt=media&token=255951df-9343-4b38-b12d-07f339d65522') no-repeat scroll 1px 1px;
+    border: solid white 1px;
+    border-radius: 10px;
+    width: 500px;
+    color: white;
+}

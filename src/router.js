@@ -1,11 +1,10 @@
 import Home from "./views/home/home";
 import page404 from "./views/404/404";
 import Noticias from "./views/noticias/noticias"
-import Medicina from "./views/categories/medicina";
-import Ejercicio from "./views/categories/ejercicio";
-import Consejos from "./views/categories/consejos";
+import Categories from "./views/categories/content_categories";
 import Nosotros from "./views/aboutUs/aboutUs";
-import Contacto from "./views/contacto/Contacto"
+import Contacto from "./views/contacto/Contacto";
+import Detail from "./views/detail/detail";
 
 const routers = [
 
@@ -25,20 +24,15 @@ const routers = [
     },
 
     {
-        path: '/categorias/medicina',
-        component: Medicina,
+        path: '/categorias/:id',
+        component: Categories,
         exact: true,
         show:false
     },
+
     {
-        path: '/categorias/ejercicio',
-        component: Ejercicio,
-        exact: true,
-        show:false
-    },
-    {
-        path: '/categorias/consejo',
-        component: Consejos,
+        path: '/categorias/detail/:id',
+        component: Detail,
         exact: true,
         show:false
     },

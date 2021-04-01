@@ -3,7 +3,7 @@ import styles from "../cards/style"
 
 
 
-function cards({Title,img,description }) {
+function cards({Title,img,description,id }) {
     return (
 
           <div className="col-md-4" style={{padding: '1%'}}>
@@ -13,7 +13,7 @@ function cards({Title,img,description }) {
                         <img  className="img-fluid mx-auto d-block"  src={img}></img>
                         <p className="card-text" style = {styles.title}>{description}</p>
                         <div className="d-grid gap-2">
-                            <button  style = {styles.btn} className="btn" type="button">Ver mas...</button>
+                            <a  style = {styles.btn} className="btn" href={'detail/'+id} type="button">Ver mas...</a>
                         </div>
                     </div>
                 </div>
