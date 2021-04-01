@@ -5,6 +5,7 @@ import Medicina from "./views/categories/medicina";
 import Ejercicio from "./views/categories/ejercicio";
 import Consejos from "./views/categories/consejos";
 import Nosotros from "./views/aboutUs/aboutUs";
+import Contacto from "./views/contacto/Contacto"
 
 const routers = [
 
@@ -46,6 +47,15 @@ const routers = [
         path: '/nosotros',
         component: Nosotros,
         name: 'Nosotros',
+        exact: true,
+        show:true
+
+    },
+
+    {
+        path: '/Contacto',
+        component: Contacto,
+        name: 'Contacto',
         exact: true,
         show:true
 
