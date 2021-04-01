@@ -1,6 +1,7 @@
 import Home from "./views/home/home";
 import page404 from "./views/404/404";
 import Noticias from "./views/noticias/noticias"
+import Nosotros from "./views/aboutUs/aboutUs"
 
 const routers = [
 
@@ -18,6 +19,17 @@ const routers = [
         exact: true,
         show:true
     },
+    
+
+    {
+        path: '/nosotros',
+        component: Nosotros,
+        name: 'Nosotros',
+        exact: true,
+        show:true
+
+    },
+
     {
         path: '/',
         component: page404,
