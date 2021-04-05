@@ -1,11 +1,45 @@
 
 
 
-.search{
-    padding: 1%;
-    background: rgba(0, 0, 0, 0) url('https://firebasestorage.googleapis.com/v0/b/saludsmart-9edc2.appspot.com/o/search.png?alt=media&token=255951df-9343-4b38-b12d-07f339d65522') no-repeat scroll 1px 1px;
-    border: solid white 1px;
+.input-border{
+ border: white solid 1px;
     border-radius: 10px;
-    width: 500px;
-    color: white;
+    padding: 2px;
+    margin: auto;
+    width: 25%;
+    background-color: white;
+}
+
+.input-search{
+    background: transparent;
+    border-width: 0;
+    width: 90%;
+    color: green;
+
+}
+
+#a_search{
+    color: black;
+}
+#a_search:hover {
+    color: green;
+}
+
+.list{
+    color: black;
+    padding:5px;
+    top:60px;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 991px) {
+    .input-border {
+        width: 100%;
+    }
+    .list{
+        top: 110px;
+    }
 }
