@@ -1,0 +1,15 @@
+textarea
+{
+    width:100%;
+    border: none;
+}
+.textwrapper
+{
+    border: none;
+    margin:5px 0;
+    resize: none;
+    padding:3px;
+    resize: none;
+    overflow: hidden;
+    height:auto;
+}

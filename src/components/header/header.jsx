@@ -5,6 +5,7 @@ import {
 import "./header.css"
 import routers from '../../router'
 import {React, useState} from 'react'
+import Search from "../search/search";
 function Nav() {
 
     const [select, setSelect] = useState('')
@@ -21,17 +22,21 @@ function Nav() {
                                 aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
+
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <ul className="navbar-nav  text-center me-auto mb-2 mb-lg-0 " >
 
                             </ul>
+                            <Search/>
                             <div className="d-flex">
+
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
                                     {
                                         routers&&routers.map((data,i)=>
                                             data.show&&
-                                            <li  className="nav-item">
+                                            <li  className="nav-item" >
                                                 <Link
                                                     className="nav-link active zoom "
                                                     onClick={()=> setSelect(data.path)}

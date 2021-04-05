@@ -1,35 +1,38 @@
 import Cards from "../../components/cards/cards"
-import Helpers from "../../helpers/helpers"
 import content from "../../content";
-function Medicina() {
+import Helpers from "../../helpers/helpers"
+import { useParams } from 'react-router-dom';
 
 
+
+
+function Categories() {
+    let { id } = useParams();
+
+
+    console.log(content,  id);
     return (
         <div className="App">
 
             <div className="row">
                 {/* load msg */}
-                { Helpers.isExist('medicina')}
+                { Helpers.isExist(id)}
 
                 {content.map((data,i)=>
-                    data.category === 'medicina'&&(
+                    data.category === id&&(
                         <Cards
                             Title ={data.name}
                             img={data.img_card}
-                            description ={data.subtitle} />
+                            description ={data.subtitle}
+                            id={data.id} />
                     )
                 )}
-
 
             </div>
 
         </div>
 
-
-
-
-
     );
 }
 
-export default Medicina;
+export default Categories;

@@ -5,6 +5,7 @@ function Contacto(){
     return(
         <div>
           <Headertext title={'Brindanos tu opinion'}/>
+          <br/><br/><br/>
           <div className={'row'}>
                <div className={'col-md-6'} >
                    <img src={SvgMedicin1} alt="React Logo" className={'img-fluid mx-auto d-block'} width={'650'}/>
@@ -18,23 +19,23 @@ function Contacto(){
 
                 <label for="exampleInputEmail1" class="form-label">TU OPINION?</label>
                 <select multiple class="form-control" id="exampleFormControlSelect2">
-                   
+
                 </select>
                 <br/>
 
                 <div class="d-grid gap-2" >
                             <button style = {style.btn} class="btn" type="button">Enviar</button>
                         </div>
-  
+
                </div>
-               
+
            </div>
 
-
+        <br/><br/>
 
         </div>
-       
-        
+
+
 
 
     )

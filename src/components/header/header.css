@@ -28,6 +28,18 @@ link-nav{
     padding-top: 7%;
     text-transform: uppercase;
 }
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
 
 @media screen and (max-width: 600px) {
     .text-header {
