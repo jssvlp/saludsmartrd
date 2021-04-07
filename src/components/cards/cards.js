@@ -15,7 +15,7 @@ function cards({Title,img,description,id ,similar = false }) {
                 <div className="card">
                     <div className="card-body"  style = {styles.card}>
                         <h5 className="card-title"  style = {styles.title}>{Title.toUpperCase()}</h5>
-                        <img  className="img-fluid mx-auto d-block"  src={img}></img>
+                        <img width="300" className="img-fluid mx-auto d-block"  src={img}></img>
                         <p className="card-text" style = {styles.title}>{description}</p>
                         <div className="d-grid gap-2">
                             <Link  style = {styles.btn} className="btn" to={similar?{pathname:'/categorias/detail/'+id}:{pathname:'detail/'+id}} type="button">Ver mas...</Link>

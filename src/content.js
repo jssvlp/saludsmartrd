@@ -226,6 +226,36 @@ const content = [
             'Dolor abdominal o dolor al orinar\n' +
             'Convulsiones o ataques'
     },
+    {
+        id:6,
+        category: 'medicina',
+        name: 'Esto es lo que dice tu apariencia sobre tu carácter y tu salud',
+        show:true,
+        img_card: 'https://content-cdn.consejosytrucos.co/wp-content/uploads/2021/03/25140001/uiterlijk-karakter-gezondheid.jpeg',
+        subtitle:'Espejito, espejito…',
+        text_content:'Lo queramos o no, todos juzgamos a los demás. En tan solo un segundo, te formas una opinión sobre alguien que no conoces en absoluto. Eso se aplica al cajero en el supermercado, ese nuevo colega o tu cita de Tinder. Creemos que podemos juzgar qué tan inteligente es alguien, o qué tan confiable, sobre la base de su apariencia. Sucede que nuestra primera impresión está completamente fuera de lugar, pero las 7 cosas a continuación realmente dicen algo sobre la personalidad de alguien. ¡Es bueno saberlo!\n'+
+
+        '1. Una imagen vale más que mil palabras\n'+
+        '¿Sabías que la gente puede saber qué tipo de persona es alguien basándose en una foto? Una investigación de 2009 dice que una mirada rápida a alguien puede darte una idea de cuán seguro es, si es religioso, extrovertido, detallista o complaciente. ¡Realmente no necesitas mucho para tener una idea de cómo es alguien!\n'+
+        
+        '2.¿Es capaz lo atractivo?\n'+
+        'Probablemente ya hayas escuchado que las personas atractivas tienen más cualidades redentoras. Los psicólogos llaman a esto el «efecto halo». Si alguien se ve bien, automáticamente asumimos que es inteligente o dedicado. A menudo se les paga más y tienen más posibilidades de recibir promociones. Verdaderamente la vida no es justa.\n'+
+        
+        '3. Rostro y liderazgo\n'+
+        '¿Sabías que la gente juzga tu capacidad de liderazgo en función de tu altura y la longitud de tu rostro? Las personas altas y de rostro alargado se consideran mejores líderes. Esto fue demostrado por una investigación realizada en 2013. Extraño, ¿verdad?\n'
+    },
+    {
+        id:8,
+        category: 'consejo',
+        name: '¿Por qué deberías dormir sobre tu lado izquierdo?',
+        show:true,
+        img_card: 'https://content-cdn.consejosytrucos.co/wp-content/uploads/2021/03/25135018/slapen-linkerzij.jpeg',
+        subtitle:'Tiene sus beneficies',
+        text_content:'Tenemos malas noticias para quienes duermen boca abajo, boca arriba o del lado derecho. Aparentemente, todos deberíamos dormir sobre nuestro lado izquierdo. Dormir sobre tu lado izquierdo tiene los siguientes beneficios.\n'+
+
+        'Reduce los ronquidos\n'+
+        '¿Estás cansado de escuchar a tu pareja quejarse de que tus ronquidos hacen temblar la habitación toda la noche? Es posible que puedas controlar esto durmiendo sobre tu lado izquierdo. Especialmente si duermes boca arriba, roncarás más fuerte. Esto se debe a que tu lengua, boca y mandíbula están completamente relajadas cuando duermes, por lo que cuando está boca arriba, esto produce ronquidos.\n'
+    },
 
 ];
 
