@@ -1,6 +1,7 @@
 import content from "../content";
 import Card from "../components/cards/cards"
 import Cards from "../components/cards/cards";
+
 function isExist(data){
     for (const key in content) {
         if(content[key].category === data){
@@ -35,6 +36,7 @@ function getContentSimilar(id,category){
                         Title ={data.name}
                         img={data.img_card}
                         description ={data.subtitle}
+                        similar={true}
                         id={data.id} />
             )
         )

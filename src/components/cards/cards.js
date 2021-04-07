@@ -1,9 +1,14 @@
 
 import styles from "../cards/style"
 
+import {
+    Link
+} from "react-router-dom";
+
+function cards({Title,img,description,id ,similar = false }) {
 
 
-function cards({Title,img,description,id }) {
+
     return (
 
           <div className="col-md-4" style={{padding: '1%'}}>
@@ -13,7 +18,7 @@ function cards({Title,img,description,id }) {
                         <img  className="img-fluid mx-auto d-block"  src={img}></img>
                         <p className="card-text" style = {styles.title}>{description}</p>
                         <div className="d-grid gap-2">
-                            <a  style = {styles.btn} className="btn" href={'detail/'+id} type="button">Ver mas...</a>
+                            <Link  style = {styles.btn} className="btn" to={similar?{pathname:'/categorias/detail/'+id}:{pathname:'detail/'+id}} type="button">Ver mas...</Link>
                         </div>
                     </div>
                 </div>
