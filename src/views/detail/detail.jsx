@@ -26,7 +26,7 @@ function Detail(){
                     <img src={content.img_content} alt={content.name} className={'img-fluid mx-auto d-block'}/>
             </div>
         </div>
-        <textarea className={'textwrapper'} rows={50} >
+        <textarea className={'textwrapper'} rows={35} readOnly={true} >
             {content.text_content}
         </textarea>
             <br/><br/><br/>

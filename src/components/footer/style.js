@@ -1,11 +1,11 @@
 const  styles = ({
     footer:{
-        
+
         overflow: "hidden",
-        bottom: 0,
-      
+
       backgroundColor:"#43C93E",
       color:"#000000",
+        paddingTop: '1%'
     },
 
 
@@ -14,7 +14,7 @@ const  styles = ({
         color:"#FFFFFF",
         textAlign:"center",
         boxShadow: "1px 0px 0px #ffffff",
-        
+
 
 
     },
@@ -26,7 +26,7 @@ const  styles = ({
         alignItems:"center",
         textAlign:"center",
         boxShadow: "1px 0px 0px #ffffff",
-       
+
 
     },
     izquierda:{
@@ -38,7 +38,7 @@ const  styles = ({
     div:{
 
         textAlign:"center"
-      
+
     },
 
     media:{
@@ -48,14 +48,15 @@ const  styles = ({
 
 
     copy:{
-        backgroundColor:"#43C21E",
+        backgroundColor:"green",
         color:"#ffffff",
         textAlign:"center",
+        fontWeight: 'bold'
     }
-    
+
     });
 
-  
+
 
 
     export default styles ;

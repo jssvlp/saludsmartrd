@@ -18,13 +18,13 @@ function Contacto(){
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
 
                 <label for="exampleInputEmail1" class="form-label">TU OPINION?</label>
-                <select multiple class="form-control" id="exampleFormControlSelect2">
+                <textarea class="form-control" rows={10} id="exampleFormControlSelect2">
 
-                </select>
+                </textarea>
                 <br/>
 
                 <div class="d-grid gap-2" >
-                            <button style = {style.btn} class="btn" type="button">Enviar</button>
+                            <a style = {style.btn} class="btn" href={'/home'} type="button">Enviar</a>
                         </div>
 
                </div>
