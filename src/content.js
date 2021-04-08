@@ -444,16 +444,6 @@ const content = [
             'Glúteo kickback es un ejercicio con bandas elásticas orientado a fortalecer esa zona. Para realizarlo tienes que arrodillarte en el piso, envuelve la banda de resistencia en tu pie y sostén el otro extremo debajo de la rodilla. Con el pie flexional y los dedos apuntando hacia el piso, extiende y levanta la pierna izquierda hasta que tu pie alcance una altura superior a tus glúteos. Aprieta tus abdominales mientras desplazas ligeramente tu peso corporal hacia un lado, manteniendo siempre firme tus glúteos. Cuidadosamente desplaza tu pie hacia atrás y repite el ejercicio.',
     },
     {
-        id: 11,
-        category: 'ejercicio',
-        name: 'los problemas de la juventud y la ansiedad',
-        show: true,
-        img_card: 'https://www.healthychildren.org/SiteCollectionImagesArticleImages/Anxiety_article_mom_teen_girl.png?RenditionID=3',
-        subtitle: 'De acuerdo con el Instituto Nacional de la Salud, cerca de 1 de cada 3 adolescentes entre las edades de 13 y 18 puede tener un trastorno de ansiedad. El número va en aumento; entre el 2007 y el 2012, los trastornos de ansiedad en los niños y adolescentes aumentó un 20 %.',
-        img_content: 'https://www.healthychildren.org/SiteCollectionImagesArticleImages/Anxiety_article_mom_teen_girl.png?RenditionID=3',
-        text_content: 'Est',
-    },
-    {
         id: 12,
         category: 'consejo',
         name: 'Cinco formas de superar la depresión',
@@ -480,7 +470,7 @@ const content = [
         category: 'consejo',
         name: '7 alimentos que ayudan a mejorar y fortalecer la vista',
         show: true,
-        img_card: 'https://www.healthychildren.org/SiteCollectionImagesArticleImages/Anxiety_article_mom_teen_girl.png?RenditionID=3',
+        img_card: 'https://ep00.epimg.net/elpais/imagenes/2015/04/13/buenavida/1428918256_439377_1428933986_noticia_normal.jpg',
         subtitle: 'Igual que para otras muchas cosas, una buena alimentación es muy beneficiosa para tu vista. Comer correctamente te permitirá evitar problemas de visión, o como mínimo retrasarlos.',
         img_content: 'https://www.opticauniversitaria.es/comunicacion/wp-content/uploads/2018/06/alimentos-para-mejorar-vista-zanahoria.jpg',
         text_content: 'Igual que para otras muchas cosas, una buena alimentación es muy beneficiosa para tu vista. Comer correctamente te permitirá evitar problemas de visión, o como mínimo retrasarlos. Seguro que alguna vez has escuchado que la zanahoria es buena para tus ojos, y es cierto. Sin embargo, no es lo único que puedes comer para mejorar tu salud visual. Por eso, hemos decidido hablarte de algunos alimentos para mejorar la vista.\n' +
@@ -549,13 +539,425 @@ const content = [
     },
     {
         id: 14,
-        category: '',
-        name: '',
+        category: 'habito',
+        name: 'Hábitos de estudios para lograr mejores resultados',
         show: true,
-        img_card: '',
-        subtitle: '',
-        img_content: '',
-        text_content: '',
+        img_card: 'https://static.educaweb.com/mailmarketing/180318_img/5551_habitos_estudio.jpg',
+        subtitle: 'Los hábitos de estudio son conductas que se practican con regularidad con el objetivo de mejorar la capacidad para adquirir y consolidar conocimientos.  ',
+        img_content: 'https://images.squarespace-cdn.com/content/v1/51bdd6cfe4b09566e1112c43/1510924539421-EF8YLP3WF6BPITHLAT36/ke17ZwdGBToddI8pDm48kKKqoqYguzupexW3DXV3-UJZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxLjrkrPVp1FahvuKJqgD-dWGu6cgPiPpDh5xGEdlXVfEfrl2hZO5nQgtINvVnABcU/habito+student-girl-studying-at-school-s.jpg',
+        text_content: 'Establecer un horario. En la medida de lo posible, intenta estudiar siempre en un mismo periodo de tiempo. Por ejemplo, puedes estudiar por las tardes de 17:00 h a 19:00 h. También puedes utilizar los momentos libres para repasar, pero es recomendable que la materia que requiere más esfuerzo se focalice en un horario concreto.\n' +
+            '\n' +
+            'Crear un plan de estudio. Antes de ponerte a estudiar, diseña un plan de estudio. Fija las metas que deseas alcanzar y organiza el contenido que estudiarás en los siguientes días, semanas o meses, así como el tiempo que dedicarás a cada uno.\n' +
+            '\n' +
+            'Descansar. Para que tu cerebro funcione correctamente, es importante dormir bien durante 7 y 8 horas. Durante el estudio también se recomienda hacer pausas cortas para desconectar y recuperar energías. \n' +
+            '\n' +
+            'Estudiar en un espacio adecuado. Tener un lugar específico con las condiciones adecuadas para estudiar te permitirá concentrarte y rendir mejor. Debe ser un espacio ordenado, silencioso, bien iluminado y cómodo.\n' +
+            '\n' +
+            'Evitar distracciones. Cuando estés estudiando, es preferible reducir al máximo posibles distracciones como, por ejemplo, las notificaciones del móvil o el sonido de la televisión. \n' +
+            'Repasar regularmente. Distribuye las sesiones de estudio en varios días para ir avanzando de forma gradual. De esta forma podrás consolidar mejor los aprendizajes al tratar de recordar y repasar lo estudiado anteriormente. También puedes revisar tus apuntes al acabar cada clase para identificar posibles dudas a solventar con tus profesores o compañeros. \n' +
+            'Adaptar la metodología de estudio al tipo de prueba. No todos los exámenes requieren la misma forma de estudio. Por ejemplo, un examen en el que debas desarrollar un tema requiere un estudio muy bien estructurado, que vaya de lo general a lo particular, priorizando el tener una visión conjunta del tema y una estructura bien definida. Sin embargo, los exámenes tipo test, donde las preguntas pueden versar sobre cualquier detalle, conviene prepararlos de forma acumulativa, para ir asimilando los conceptos en cascada, recordando más y más cosas a medida que vamos repasando las materias.\n' +
+            'Emplear técnicas de estudio. Existen multitud de técnicas de estudio que facilitan el aprendizaje. Puedes encontrar de distintas modalidades (escritas, visuales, auditivas, etc.). Por ello, a continuación encontrarás algunas recomendaciones que te ayudarán a mejorar tu proceso de comprensión, memorización y rendimiento académico. \n' +
+            'Propuestas de técnicas de estudio\n' +
+            'No existen unas reglas fijas a la hora de seleccionar cuáles son las técnicas de estudio mejores o más eficaces, ya que es una cuestión que depende de cada persona. A un estudiante le puede resultar particularmente efectivo el uso de fichas de estudio, mientras que otro preferirá basar su trabajo en los subrayados o los mapas conceptuales.\n' +
+            '\n' +
+            'Otro aspecto interesante de las técnicas de estudio es que no involucran únicamente a las áreas visual y auditiva, sino también la escritura con el objetivo de reducir la dispersión o hacerla evidente al propio estudiante.\n' +
+            '\n' +
+            'A continuación, se presenta una selección de técnicas de estudio que la experiencia de muchos estudiantes ha demostrado como eficaces: \n' +
+            'Leer comprensivamente y subrayar. Una de las técnicas de estudio más sencillas consiste en leer y resaltar las partes más importantes de un temario. Simplemente se trata de destacar las partes más significativas del texto usando marcadores fluorescentes de distintos colores. Es una forma ideal de proceder al comenzar el estudio.\n' +
+            '\n' +
+            'Esquemas o mapas conceptuales. Resumir y organizar las ideas sintéticamente de forma manuscrita o mediante el ordenador, te permitirá la consolidación conocimientos y la facilidad para repasarlos.\n' +
+            '\n' +
+            'Fichas de estudio. Es una técnica más laboriosa, pero muy eficaz para materias como Historia, Química o Geografía porque permiten asimilar datos concretos, fechas, números o vocabulario. Existen aplicaciones informáticas gratuitas de calidad para facilitar la elaboración de fichas.  \n' +
+            '\n' +
+            'Reglas mnemotécnicas. Las técnicas de memoria son útiles para recordar un listado de palabras o frases concretas. Se basa básicamente en asociar conceptos que tenemos que memorizar con otros que nos son más familiares. Un ejemplo sería la palabra inventada "FECTES" para recordar los distintos tipos de desempleo: Friccional, Estacional, Cíclico, Tecnológico, Estructural y Shock estructural.  \n' +
+            '\n' +
+            'Explicar lo aprendido. Intentar transmitir a otra persona aquello que has aprendido con tus propias palabras es una de las estrategias más efectivas para que ese aprendizaje se consolide en la memoria. \n' +
+            '\n' +
+            'Recuerda que adquirir unos hábitos de estudio y aprender a usar correctamente las técnicas de estudio requiere práctica y pasar por un progresivo proceso de aprendizaje. Por ese motivo, es importante que tengas claros tus objetivos y seas perseverante. ',
+    },
+    {
+        id: 15,
+        category: 'habito',
+        name: 'Cómo dejar de procrastinar: 4 métodos basados en la ciencia',
+        show: true,
+        img_card: 'https://blog.trello.com/hs-fs/hubfs/Imported_Blog_Media/set_mini_milestones-1024x512.jpg?width=1024&height=512&name=set_mini_milestones-1024x512.jpg',
+        subtitle: 'Tienes encima una fecha de entrega y sabes que deberías empezar cuanto antes, pero simplemente no sabes cómo evitar procrastinar. En vez de hacer lo que debes, contestas correos, limpias tus archivos, le llamas a tu abuela, ordenas tu cajón de calcetines (estos son solo algunos ejemplos de procrastinación, pero existen',
+        img_content: 'https://blog.trello.com/hs-fs/hubfs/Imported_Blog_Media/make_mean_deadlines-1024x512.jpg?width=1024&height=512&name=make_mean_deadlines-1024x512.jpg',
+        text_content: 'Si bien "Just do it" ("Sólo hazlo" en español) le resulta bien a Nike como eslogan pegadizo, no es exactamente el consejo más útil o motivador en cuanto a productividad se refiere. Después de todo, si tuvieras la voluntad de hacerlo, seguramente ya lo habrías hecho.\n' +
+            '\n' +
+            'Por esto, aquí te mostramos cuatro consejos basados en la ciencia sobre cómo evitar procrastinar:\n' +
+            '\n' +
+            '1. Plantea pequeñas metas de acuerdo al Principio del Progreso\n' +
+            'planteando pequeñas metas\n' +
+            '\n' +
+            'Sabes que al terminar una tarea enorme o un proyecto intimidante te sentirás increíble, pero no siempre es tan simple. A menos que seas una especie de superhéroe de la productividad, los golpes de genialidad productiva no pueden suceder todos los días.\n' +
+            '\n' +
+            'Es por esta razón que dividir una tarea grande en metas más pequeñas es un gran truco para aumentar tu productividad y evitar procrastinar. Para empezar, estás creando una ruta con elementos de acción claros que puedes seguir hasta la meta final. En vez de sentir que no tienes idea de dónde o cómo empezar, tienes un esquema detallado que te dice exactamente lo que debe suceder y cuándo.\n' +
+            '\n' +
+            'Investigación reciente describe un fenómeno que se llama principio del progreso, que explica que de todas las cosas que pueden estimular las emociones y percepciones durante el día de trabajo, lo más importante es progresar en el trabajo significativo. Aprender a reconocer y celebrar estos logros de menor magnitud dentro de un proyecto más grande, mejorará significativamente tu estado de ánimo y tu motivación en el trabajo.\n' +
+            '\n' +
+            'En resumen, la felicidad y la productividad están más estrechamente relacionadas de lo que uno pensaría. Así que no dudes en tomarte una pausa para festejar tus avances en cada paso que vayas dando. Es bueno para ti.\n' +
+            '\n' +
+            '2. Fija fechas de entrega promedio\n' +
+            'es más fácil dejar de procrastinar en días en vez de meses\n' +
+            '\n' +
+            '¿Cuál de estas afirmaciones te infunde un mayor sentido de urgencia: ese proyecto importante se debe entregar en 2 meses, o ese proyecto importante se debe entregar en 60 días?\n' +
+            '\n' +
+            'A la mayoría de las personas le infunde un sentido de urgencia mucho mayor la fecha de entrega que está en días. Esto va un poco en contra de la intuición porque uno podría pensar que un número mayor es más reconfortante. Pero dividir las tareas en días (en vez de semanas o meses) puede ayudar a darte ese empujón que necesitas para dejar de procrastinar.\n' +
+            '\n' +
+            'Durante un estudio que se llevó a cabo por investigadores de la universidad de Michigan y la USC, los participantes se dividieron en dos grupos. Al primer grupo se le hizo la pregunta: ¿si se fueran a jubilar en 40 años, cuándo deberían empezar a ahorrar para su jubilación? Al segundo grupo se le preguntó: ¿ si se fueran a jubilar en 14 600 días (lo equivalente a 40 años), cuándo deberían empezar a ahorrar para su jubilación?\n' +
+            '\n' +
+            'Como era de esperar, al grupo al que se le indicó la medida del tiempo en días experimentó un mayor sentido de urgencia por empezar a ahorrar dinero, en comparación con el grupo al que se le indicó la medida en años.\n' +
+            '\n' +
+            '¿Pero por qué? Según los investigadores de este estudio, indicar las fechas de entrega en días ayuda a conectar tu yo del futuro con tu yo del presente, aumentando así la sensación de que el tiempo pasa más rápido.\n' +
+            '\n' +
+            '3. No es un maratón\n' +
+            'No es un maratón sino varios sprints\n' +
+            '\n' +
+            'Cuando tienes una fecha de entrega rondando en tu cabeza como si fuera una canción pegajosa pero amenazadora, es muy fácil pensar que deberías ponerte el cinturón y estacionarte frente a tu computadora hasta que estés exhausto y con los ojos llorosos hasta altas horas de la madrugada.\n' +
+            '\n' +
+            'Sin embargo, tal como indican los hallazgos científicos, es mejor trabajar por ratos en vez de en sesiones tipo maratón. De hecho, trabajar por un periodo de 52 minutos con un descanso de 17 minutos podría ser el sprint ideal para aumentar tu productividad y dejar de procrastinar.\n' +
+            '\n' +
+            'Si no te gustan esos rígidos límites de tiempo, la técnica Pomodoro es un método de gestión del tiempo de 25 minutos que te ayudará a tomar descansos adecuados y darle espacio a tu cerebro para respirar.\n' +
+            '\n' +
+            'Parece contraproducente tomar descansos cuando lo que quieres es apurarte. Pero en realidad puede ser algo bueno para tu cordura y tu productividad. Además, la ciencia lo apoya. Investigadores analizaron la actividad cerebral de personas que estaban soñando despiertas, y encontraron que las regiones asociadas a la resolución de problemas complejos se activaban durante ese período:\n' +
+            '\n' +
+            'Soñar despierto y las áreas que se activan en el cerebro\n' +
+            'La imagen pertenece a: Buffer\n' +
+            '\n' +
+            '¿En contra de la intuición? Tal vez. ¿Productivo? Definitivamente.\n' +
+            '\n' +
+            '4. El estrés te está saboteando\n' +
+            'es más fácil dejar de procrastinar en días en vez de meses\n' +
+            '\n' +
+            'Aunque el consejo sobre dar un paso hacia atrás y respirar hondo puede sonar a cliché, en realidad puede ser de gran ayuda.\n' +
+            '\n' +
+            'Altos niveles de estrés pueden destruir tu productividad. Como este estudio de Towers Watson demuestra, el 57% de los empleados que experimentan altos niveles de estrés en el trabajo son menos productivos e incluso se sienten desconectados de su propio trabajo.\n' +
+            '\n' +
+            'Según las encuestas que llevó a cabo Towers Watson, existen algunas correlaciones sorprendentes entre el estrés y la productividad en el trabajo (o falta de):\n' +
+            '\n' +
+            '57% de los empleados que experimentan un alto estrés en el trabajo son menos productivos y están desconectados\n' +
+            '68% de los empleados sienten que las horas requeridas para poder terminar su trabajo a diario es mayor al número de horas del día laboral.\n' +
+            'El alto estrés en el trabajo está relacionado con el ausentismo.\n' +
+            'Así que sí sientes un nudo en el estómago y tienes escalofríos, no dudes en darte un respiro por unos minutos. Podrás regresar a ese proyecto abrumador con un enfoque claro, una cabeza fría y mucho menos pánico.\n' +
+            '\n' +
+            'Cómo dejar de procrastinar, pero esta vez en serio\n' +
+            'Esos proyectos que has estado postergando en tu lista de pendientes son suficientes como para meterle un susto a cualquiera y suscitar una sensación de terror inminente. Pero no necesitas esconderte debajo del escritorio hasta que esa enorme tarea desaparezca—eso no te dejará nada más que un dolor de espalda.\n' +
+            '\n' +
+            'En vez de eso, aprovecha estos cuatro métodos que se han estudiado por la ciencia, y afronta esa tarea abrumadora de una vez por todas—o al menos hasta que la siguiente aparezca en tu escritorio.\n' +
+            '\n' +
+            'Traducido con amor por Brenda Vargas.\n' +
+            '\n',
+    },
+    {
+        id: 16,
+        category: 'tratamiento',
+        name: 'Cómo estimular el crecimiento del cabello',
+        show: true,
+        img_card: 'https://s1.eestatic.com/2020/04/29/actualidad/actualidad_486212128_151157513_1706x960.jpg',
+        subtitle: 'Debes saber que los remedios caseros que te mostramos a continuación no son milagrosos, pero sí una buena ayuda para estimular el crecimiento del cabello y mejorar su salud. Además, lograremos que crezca.',
+        img_content: 'https://mejorconsalud.as.com/wp-content/uploads/2016/07/Beneficios-del-ajo-para-el-crecimiento-del-cabello-y-c%C3%B3mo-prepararlo-en-tratamientos.jpg',
+        text_content: 'Técnicas naturales para hacer crecer el pelo\n' +
+            'Debes saber que los remedios caseros que te mostramos a continuación no son milagrosos, pero sí una buena ayuda para estimular el crecimiento del cabello y mejorar su salud. Además, lograremos que crezca con más fuerza, densidad y cuerpo.\n' +
+            '\n' +
+            '\n' +
+            'La alopecia afecta a una gran parte de la población, y no solo es un problema de hombres. Se considera alopecia cuando se pierden más de 100 cabellos al día, en cuyo caso lo mejor es que acudas al médico para averiguar la causa e iniciar el tratamiento adecuado. Existen tratamientos que son efectivos para frenar la alopecia y recuperar el pelo, pero deben ser recomendados por un especialista. De momento, te dejamos estos consejos que pueden ayudarte con este problema.\n' +
+            '\n' +
+            '1. Masajes para estimular el cuello cabelludo\n' +
+            'Masajear el cuero cabelludo es uno de los remedios naturales más efectivos para hacer crecer el cabello nuevo. Si lo haces de forma regular, verás cuánto crece el pelo, ya que estos masajes estimulan la circulación sanguínea en la zona y facilitan el drenaje de las toxinas. También permiten que los folículos pilosos se nutran mejor, haciendo crecer el pelo más fuerte, grueso y sano. Para realizarlos de forma efectiva, mejor aplicar algún aceite natural que ayude a estimular el crecimiento del cabello.\n' +
+            '\n' +
+            'Los mejores aceites esenciales para recuperar el pelo son: aceite de romero, aceite de bergamota, de tomillo, aceite de lavanda, de árbol de té o aceite de menta. Diluye unas 5 o 6 gotas del aceite escogido con 3 cucharadas de aceite vegetal, por ejemplo, de oliva o de almendras. Masajea el cuero cabelludo con esta mezcla y distribuye bien la loción de forma suave con la yema de los dedos. Hazlo durante 10 minutos y deja actuar el producto una hora. Por último, enjuaga y lava de forma habitual, pudiendo repetir el tratamiento una vez a la semana.\n' +
+            '\n' +
+            '2. Cebolla\n' +
+            'Sabemos que su olor no es nada agradable, pero sus resultados hablan por sí solos. Es uno de los ingredientes estrella para recuperar el pelo, de hecho, muchos champús lo incluyen para estimular el crecimiento del pelo. \n' +
+            '\n' +
+            'Champú de cebolla\n' +
+            'Champú de cebolla\n' +
+            '\n' +
+            'Comprar en Amazon\n' +
+            'Esto es debido a que su alto contenido en azufre es ideal para mejorar el flujo sanguíneo del cuero cabelludo, oxigenando las raíces y aportando los nutrientes necesarios para que el cabello crezca fuerte y sano.\n' +
+            '\n' +
+            'Para elaborar este remedio, licua 2 cebollas peladas, reserva su jugo en un recipiente y aplica sobre el cuero cabelludo, masajeando la zona con suavidad durante unos cuantos minutos. Ponte un gorro de ducha y deja actuar 30 minutos, lava después dos veces para eliminar el mal olor y utiliza un acondicionador.\n' +
+            '\n' +
+            '3. Huevo\n' +
+            'Este alimento repleto de proteínas evita que el pelo se debilite y se rompa con facilidad, al mismo tiempo que le aporta grosor, densidad y resistencia. Es perfecto para combatir el crecimiento lento y la caída del pelo gracias a la biotina, una vitamina que nutre los folículos pilosos, haciendo que el pelo crezca saludable.\n' +
+            '\n' +
+            'También le aporta mucho brillo y suavidad a la melena, y solo tienes que batir uno o dos huevos, según lo largo que sea el cabello, y aplicarlo sobre él desde la raíz a las puntas. Masajea con movimientos circulares haciendo especial hincapié en medios y puntas. Deja actuar 15 o 20 minutos, enjuaga y lava como de costumbre.\n' +
+            '\n' +
+            '4. Semillas de fenogreco\n' +
+            'Para recuperar el pelo y hacer que crezca más fuerte y abundante, el fenogreco es un aliado perfecto. Esta hierba es ideal para frenar la caída del pelo y estimular su crecimiento, pues posee vitaminas A, B6, B12, C y E, hierro y zinc. Ellas son las encargadas de reforzar las fibras capilares y favorecer la irrigación de los folículos pilosos, hidratando además el cabello y fortaleciéndolo gracias a su alto contenido en lecitina.\n' +
+            '\n' +
+            'Coloca 3 cucharadas de semillas de fenogreco en una olla con agua y déjalas en remojo durante 24 horas. Después de ese tiempo, cuela y reserva el agua, que es lo que verteremos por el cabello a modo de enjuague capilar, masajeando durante unos minutos. Deja actuar 20 o 30 minutos y lava el pelo de forma habitual.\n' +
+            '\n' +
+            'Semillas de fenogreco\n' +
+            'Semillas de fenogreco\n' +
+            '\n' +
+            'Comprar en Amazon\n' +
+            '5. Aceite de coco y aguacate\n' +
+            'Al combinar las propiedades de estos dos ingredientes, elaboraremos una mezcla que no solo logrará recuperar el pelo de forma sana, rápida y fuerte, sino que es un excelente remedio para prevenir el envejecimiento capilar y revitalizar la melena.\n' +
+            '\n' +
+            'Para conseguirlo, calienta 3 cucharadas de aceite de coco orgánico hasta que se vuelva líquido. Pela un aguacate y machácalo con un tenedor, mézclalo con el aceite de coco tibio y aplica desde la raíz hasta las puntas. Deja actuar 15 minutos, enjuaga el pelo y lávalo como siempre. ',
+    },
+    {
+        id: 18,
+        category: 'tratamiento',
+        name: '9 remedios caseros para deshacerte de la caspa de manera natural',
+        show: true,
+        img_card: 'https://mejorconsalud.as.com/wp-content/uploads/2014/10/Remedios-caseros-para-la-caspa-y-la-sborrea.jpg',
+        subtitle: 'La caspa afecta hasta al 50% de las personas.\n' +
+            '\n' +
+            'Las señales de esta condición son picazón y escamas en el cuero cabelludo, pero también puede ocasionar otros síntomas como parches de grasa en el cuero cabelludo y cosquilleo en la piel.',
+        img_content: 'https://mejorconsalud.as.com/wp-content/uploads/2017/12/10-remedios-naturales-eficaces-contra-la-caspa.jpg',
+        text_content: '1. Prueba el aceite de árbol de té\n' +
+            'Históricamente, el aceite de árbol de té se ha utilizado para tratar dolencias que van desde el acné hasta la psoriasis.\n' +
+            '\n' +
+            'Se ha demostrado que tiene propiedades poderosas antimicrobianas y antiinflamatorias, lo cual puede ayudar a aliviar los síntomas de la caspa.\n' +
+            '\n' +
+            'De hecho, según una revisión, el aceite de árbol de té es efectivo para contrarrestar la cepa específica del hongo que puede ocasionar tanto la dermatitis seborreica como la caspa.\n' +
+            '\n' +
+            'Otro estudio de 4 semanas examinó los efectos del aceite de árbol de té en la caspa al tratar a 126 personas diariamente con un champú que contenía 5% de aceite de árbol de té o un placebo.\n' +
+            '\n' +
+            'Al final del estudio, el aceite de árbol de té redujo la gravedad de los síntomas en un 41% y mejoró la crasitud y la picazón.\n' +
+            '\n' +
+            'Toma en cuenta que el aceite de árbol de té puede ocasionar irritación en las personas con piel sensible. Es mejor diluirlo al agregar unas cuantas gotas a un aceite vehicular como el aceite de coco antes de aplicarlo directamente a la piel.\n' +
+            '\n' +
+            '2. Usa aceite de coco\n' +
+            'Es bien conocido por sus múltiples beneficios para la salud, con frecuencia, el aceite de coco también se usa como un remedio natural para la caspa.\n' +
+            '\n' +
+            'El aceite de coco puede ayudar a mejorar la hidratación de la piel y evitar la resequedad, lo cual puede empeorar la caspa.\n' +
+            '\n' +
+            'Un pequeño estudio de 34 personas demostró que el aceite de coco era tan efectivo como el aceite mineral para mejorar la hidratación de la piel.\n' +
+            '\n' +
+            'Otra investigación determinó que el aceite de coco podía ayudar a tratar el eczema, una condición de la piel que puede contribuir a la caspa.\n' +
+            '\n' +
+            'Un estudio comparó los efectos del aceite de coco y el aceite mineral en la dermatitis atópica, un tipo de eczema caracterizado por picazón e hinchazón.\n' +
+            '\n' +
+            'Aplicar aceite de coco a la piel durante ocho semanas redujo los síntomas en un 68%, en comparación con solo 38% en el grupo de aceite mineral.\n' +
+            '\n' +
+            'El aceite de coco y sus compuestos también han demostrado tener propiedades antimicrobianas en algunos estudios de probeta, aunque los efectos en la cepa específica del hongo que ocasiona la caspa no se han examinado todavía.\n' +
+            '\n' +
+            'RESUMEN\n' +
+            'Las propiedades potenciales antimicrobianas del aceite de coco pueden mejorar la hidratación de la piel y reducir los síntomas del eczema y la caspa.\n' +
+            '\n' +
+            '\n' +
+            '3. Aplica aloe vera\n' +
+            'El aloe vera es un tipo de suculenta que con frecuencia se agrega a los ungüentos, cosméticos y lociones para la piel.\n' +
+            '\n' +
+            'Cuando se aplica a la piel, se cree que el aloe vera ayuda a tratar las condiciones de la piel como quemaduras, psoriasis y herpes.\n' +
+            '\n' +
+            'También puede ser de beneficio en el tratamiento de la caspa.\n' +
+            '\n' +
+            'De acuerdo con un artículo, las propiedades antibacterianas y antifúngicas del aloe vera podrían ayudar a proteger contra la caspa.\n' +
+            '\n' +
+            'De forma similar, un estudio de probeta determinó que el aloe vera era efectivo contra varias especies de hongos y podía ayudar a controlar las infecciones fúngicas que ocasionan la pérdida de cabello debido a la caspa.\n' +
+            '\n' +
+            'Los estudios de probeta también determinaron que el aloe vera puede reducir la inflamación, lo cual puede aliviar los síntomas.\n' +
+            '\n' +
+            'A pesar de estos resultados prometedores, se requieren estudios adicionales para observar cómo el aloe vera puede afectar directamente la caspa.\n' +
+            '\n' +
+            'RESUMEN\n' +
+            'El aloe vera tiene propiedades antibacterianas y antifúngicas. Como resultado, puede ayudar a reducir la inflamación y disminuir los síntomas de la caspa.\n' +
+            '\n' +
+            'ADVERTISING\n' +
+            '\n' +
+            '\n' +
+            '4. Minimiza los niveles de estrés\n' +
+            'Se cree que el estrés afecta muchos aspectos de la salud y el bienestar. Puede influir en todo, desde las condiciones crónicas hasta la salud mental.\n' +
+            '\n' +
+            'Aunque el estrés en sí no causa la caspa, puede agravar los síntomas como la resequedad y la picazón.\n' +
+            '\n' +
+            'Mantener altos niveles de estrés por períodos prolongados puede suprimir la actividad del sistema inmunitario.\n' +
+            '\n' +
+            'Un sistema inmunitario debilitado puede reducir la capacidad de tu cuerpo de contrarrestar algunas de las infecciones fúngicas y condiciones de la piel que contribuyen a la caspa.\n' +
+            '\n' +
+            'De hecho, un estudio de 82 personas con dermatitis seborreica, una de las causas más comunes de la caspa, demostró que la mayoría de los episodios de dermatitis eran precedidos por un evento estresante en la vida.\n' +
+            '\n' +
+            'Para mantener los niveles de estrés bajo control, prueba algunas técnicas para reducir el estrés, como la meditación, yoga, respiración profunda o aromaterapia.\n' +
+            '\n' +
+            'RESUMEN\n' +
+            'El estrés puede debilitar el sistema inmunitario y disminuir la capacidad del cuerpo de contrarrestar las infecciones que causan la caspa. Con frecuencia, el estrés también precede episodios de dermatitis seborreica, una de las causas más comunes de la caspa.\n' +
+            '\n' +
+            'ADVERTISEMENT\n' +
+            'Find out how to boost your immune response\n' +
+            'Amazon Elements Turmeric Complex is packed with high-quality, natural ingredients to provide pain relief and fight off inflammation.\n' +
+            '\n' +
+            '5. Agrega vinagre de manzana a tu rutina\n' +
+            'El vinagre de manzana ha sido relacionado con una variedad de beneficios para la salud. Estos incluyen mejorar la sensibilidad a la insulina y aumentar la pérdida de peso.\n' +
+            '\n' +
+            'Además, el vinagre de manzana es frecuentemente usado como un remedio natural para deshacerse de la caspa.\n' +
+            '\n' +
+            'Se considera que la acidez del vinagre ayuda a estimular la descamación de las células de piel muerta en el cuero cabelludo.\n' +
+            '\n' +
+            'También se dice que el vinagre de manzana balancea el pH de la piel para reducir el crecimiento de hongos y, por lo tanto, contrarrestar la caspa.\n' +
+            '\n' +
+            'Sin embargo, no existen estudios que apoyen estas aseveraciones y muchos de los beneficios del vinagre de manzana para la caspa se basan en evidencia anecdótica.\n' +
+            '\n' +
+            'Entonces, los estudios de probeta demuestran que el vinagre de manzana y sus compuestos pueden evitar el crecimiento de ciertos tipos de hongos.\n' +
+            '\n' +
+            'Si quisieras probar el vinagre de manzana, agrega unas cuantas cucharadas a tu champú o combínalo con otros aceites esenciales y rocía la mezcla directamente sobre el cabello.\n' +
+            '\n' +
+            'RESUMEN\n' +
+            'Se dice que el vinagre de manzana ayuda a eliminar las células muertas de la piel y balancea el pH de la caspa. Además, los estudios de probeta demuestran que este evita el crecimiento de ciertos tipos de hongos.\n' +
+            '\n' +
+            '\n' +
+            '6. Prueba la aspirina\n' +
+            'El ácido salicílico es uno de los compuestos principales que se encuentran en la aspirina que es responsable de sus propiedades antiinflamatorias.\n' +
+            '\n' +
+            'Además de encontrarse en la aspirina, el ácido salicílico también se encuentra en muchos de los champús anticaspa.\n' +
+            '\n' +
+            'El ácido salicílico ayuda a deshacerse de la piel escamosa y eliminar las escamas.\n' +
+            '\n' +
+            'En un estudio, 19 personas con caspa usaron dos champús que contenían piroctona olamina combinado con ácido salicílico o piritionato de zinc.\n' +
+            '\n' +
+            'Ambos champús pudieron reducir la caspa después de cuatro semanas, pero el champú que contenía ácido salicílico fue más efectivo para reducir la gravedad de las escamas.\n' +
+            '\n' +
+            'Otro estudio demostró que un champú que contenía ácido salicílico era igualmente efectivo a un medicamento con receta médica para tratar la dermatitis seborreica y la caspa.\n' +
+            '\n' +
+            'Para un remedio fácil contra la caspa, prueba triturar dos tabletas de aspirina y agrega el polvo a tu champú antes de lavar tu cabello.\n' +
+            '\n' +
+            'RESUMEN\n' +
+            'La aspirina contiene ácido salicílico, un ingrediente que se encuentra en muchos champús anticaspa. Se ha demostrado que el ácido salicílico es efectivo en el tratamiento de la dermatitis seborreica y la caspa.\n' +
+            '\n' +
+            '7. Aumenta tu consumo de Omega 3\n' +
+            'Los ácidos grasos omega 3 juegan un papel importante en el cuerpo.\n' +
+            '\n' +
+            'No solo forman las membranas de las células que rodean tus células, sino que también son determinantes en la función de tu corazón, el sistema inmunitario y los pulmones.\n' +
+            '\n' +
+            'Los ácidos grasos omega 3 también son vitales para la salud de la piel. Estos ayudan a controlar la producción de aceite y la hidratación, promueven la curación de heridas y evitan el envejecimiento prematuro.\n' +
+            '\n' +
+            'Una deficiencia en los ácidos grasos omega 3 puede causar una variedad de síntomas, incluso cabello reseco, piel reseca y hasta caspa.\n' +
+            '\n' +
+            'Los ácidos grasos omega 3 también pueden reducir la inflamación, que puede ayudar a aliviar la irritación y los síntomas de la caspa.\n' +
+            '\n' +
+            'Los pescados grasos como el salmón, la trucha y la caballa son excelentes fuentes de ácidos grasos omega 3. También puedes tomar el suplemento de aceite de pescado o incrementar tu consumo de otros alimentos abundantes en omega 3 como la linaza, las semillas de chía y las nueces.\n' +
+            '\n' +
+            'RESUMEN\n' +
+            'Los ácidos grasos omega 3 son importantes para la salud de la piel y pueden ayudar a reducir la inflamación. La deficiencia puede ocasionar piel reseca, cabello reseco y caspa.\n' +
+            '\n' +
+            '8. Come más probióticos\n' +
+            'Los probióticos son un tipo de bacteria benéfica que es buena para tu salud.\n' +
+            '\n' +
+            'Existen muchos beneficios potenciales de los probióticos, incluso la protección contra las alergias, niveles más bajos de colesterol y aumento en la pérdida de peso.\n' +
+            '\n' +
+            'Los probióticos también pueden ayudar a mejorar la función inmunitaria, la cual podría ayudar al cuerpo a contrarrestar las infecciones fúngicas que ocasionan la caspa.\n' +
+            '\n' +
+            'De hecho, un estudio demostró que tomar probióticos durante 56 días redujo significativamente la gravedad de la caspa en 60 personas.\n' +
+            '\n' +
+            'Los probióticos también han demostrado ayudar a disminuir los síntomas de las condiciones de la piel como el eczema y la dermatitis, especialmente en bebés y niños.\n' +
+            '\n' +
+            'Los probióticos están disponibles a manera de suplementos para una dosis rápida y conveniente.\n' +
+            '\n' +
+            'Estos también se pueden encontrar en muchos tipos de alimentos fermentados como kombucha, col china, tempeh, chucrut y natto.\n' +
+            '\n' +
+            'A continuación, encontrarás una lista de 11 alimentos que son ricos en probióticos saludables.\n' +
+            '\n' +
+            'RESUMEN\n' +
+            'Los probióticos pueden ayudar a mejorar la función inmunitaria y han demostrado que reducen la gravedad de la caspa.\n' +
+            '\n' +
+            '9. Utiliza bicarbonato\n' +
+            'Se encuentra en las cocinas de todo el mundo, el bicarbonato es un remedio rápido, conveniente y disponible para ayudar a tratar la caspa.\n' +
+            '\n' +
+            'Se cree que actúa como un exfoliante suave para retirar las células muertas de la piel y reducir las escamas y la picazón.\n' +
+            '\n' +
+            'El bicarbonato también tiene propiedades antifúngicas que podrían ser de beneficio en el tratamiento de la caspa.\n' +
+            '\n' +
+            'Un estudio de probeta midió los efectos antifúngicos del bicarbonato en algunas de las cepas de hongos más comunes que ocasionan las infecciones de la piel.\n' +
+            '\n' +
+            'De manera impresionante, el bicarbonato pudo inhibir completamente el crecimiento de hongos en un 79% de las muestras después de siete días.\n' +
+            '\n' +
+            'Otro estudio observó los efectos del bicarbonato en 31 personas con psoriasis. Se determinó que el tratamiento con baños de bicarbonato reducía significativamente tanto la picazón como la irritación después de solamente tres semanas.\n' +
+            '\n' +
+            'Los lineamientos del tratamiento para otras condiciones, como la dermatitis atópica, también indicaron que los baños con bicarbonato podían ayudar a aliviar la picazón.\n' +
+            '\n' +
+            'Para mejores resultados, prueba aplicar el bicarbonato directa',
+    },
+    ,
+    {
+        id: 19,
+        category: 'nutricion',
+        name: 'Cómo mejorar sus hábitos de alimentación',
+        show: true,
+        img_card: 'https://www.cdc.gov/healthyweight/spanish/images/losingweight/family_cooking-esp.jpg',
+        subtitle: 'Cuando se trata de comer, todos tenemos hábitos muy arraigados. Algunos son buenos (“siempre tomo mi desayuno”) y otros no tan buenos (“siempre dejo el plato limpio”). Pese a que muchos hábitos de alimentación los adquirimos desde la niñez, no significa que sea demasiado tarde para cambiarlos.',
+        img_content: 'https://www.clikisalud.net/wp-content/uploads/2017/10/nutrici%C3%B3n.jpg',
+        text_content: 'Los cambios repentinos y radicales en los hábitos de alimentación, como no comer más que sopa de repollo, pueden llevar a una pérdida de peso a corto plazo. Pero estos cambios exagerados no son saludables ni buenos y no ayudarán en el largo plazo. Para mejorar los hábitos de alimentación de manera permanente, se necesita un enfoque en el que Reflexione, Sustituya y Refuerce.\n' +
+            '\n' +
+            'REFLEXIONE sobre todos sus hábitos de alimentación, tanto buenos como malos, así como en las cosas que desencadenan que coma en forma poco saludable.\n' +
+            'SUSTITUYA sus hábitos alimentarios poco saludables por otros más saludables.\n' +
+            'REFUERCE sus nuevos hábitos de alimentación.\n' +
+            'Reflexione, sustituya y refuerce: Un proceso para mejorar sus hábitos de alimentación\n' +
+            'Una mujer sentada en una silla escribiendo en un cuaderno\n' +
+            'Elabore una lista de sus hábitos de alimentación. Mantener un “diario de alimentos” durante unos días donde anote todo lo que come y la hora en que lo hace le ayudará a descubrir sus hábitos. Por ejemplo, puede ser que siempre quiere algo dulce cuando siente una baja de su energía a media tarde. Use diario de alimentos pdf icon[PDF-121KB] para elaborar la lista. Es bueno anotar cómo se sentía cuando decidió comer, especialmente si no tenía hambre. ¿Estaba cansado o estresado?\n' +
+            '\n' +
+            'Subraye los hábitos de la lista que estén causando que usted coma más de lo necesario. Los hábitos de alimentación que con frecuencia pueden llevar a un aumento de peso son:\n' +
+            'Comer muy rápido\n' +
+            'Comerse todo lo que se sirve del plato\n' +
+            'Comer cuando no tiene hambre\n' +
+            'Comer de pié (puede hacer que coma sin pensar en lo que come o muy rápido)\n' +
+            'Siempre comer postre\n' +
+            'Saltarse comidas (o solo el desayuno)\n' +
+            'Revise los hábitos de alimentación poco saludables que ha subrayado. Asegúrese de identificar todos los factores que desencadenan esos hábitos. Identifique algunos de los que tratará de cambiar primero. No deje de felicitarse por las cosas que haga bien. A lo mejor casi siempre come fruta de postre o toma leche baja en grasas o desgrasada. ¡Estos son hábitos buenos! Al reconocer sus logros se sentirá motivado para hacer más cambios.\n' +
+            'Elabore una lista de factores “desencadenantes” revisando su diario de alimentos tendrá más consciencia de dónde y cuándo surgen factores “desencadenantes” para comer sin tener hambre. Anote cómo se suele sentir en esas ocasiones. A menudo un “desencadenante” ambiental o un estado de ánimo particular es lo que nos impulsa a comer sin tener hambre. Desencadenantes comunes que impulsan a comer cuando no se tiene hambre:Un joven buscando algo de comer en un refrigerador\n' +
+            'Abrir un cajón y encontrar su refrigerio favorito.\n' +
+            'Sentarse en casa a ver la televisión.\n' +
+            'Antes o después de una reunión o una situación de estrés en el trabajo.\n' +
+            'Llegar a casa del trabajo y no tener idea de lo que va a comer.\n' +
+            'Que alguien le ofrezca un platillo que hizo ¡”solo para usted”!\n' +
+            'Pasar frente a un platillo dulce en un mostrador.\n' +
+            'Sentarse en el comedor del trabajo cerca de la máquina expendedora de golosinas o refrigerios.\n' +
+            'Ver un plato de donas por la mañana durante una reunión de trabajo.\n' +
+            'Pasar todas las mañanas a la ventanilla de su restaurante de comidas rápidas favorito.\n' +
+            'Sentirse aburrido o cansado y pensar que comer algo le subirá los ánimos.\n' +
+            'Encierre en un círculo los “factores desencadenantes” de la lista que enfrenta a diario o cada semana. Reunirse con su familia en el Día de Acción de Gracias puede ser un factor “desencadenante” para comer de más. Sería bueno que tenga un plan listo para contrarrestar estos factores. Pero por ahora, concéntrese en los que tiene más a menudo.\n' +
+            'Pregúntese lo siguiente para cada factor “desencadenante” que haya marcado en un círculo:\n' +
+            '¿Hay algo que pueda hacer para evitar este desencadenante o esta situación? Esta opción funciona mejor con algunos factores desencadenantes que son independientes de otros. Por ejemplo, ¿podría tomar un camino distinto al trabajo para evitar parar en su restaurante favorito de comida rápida? ¿Hay otro lugar en el comedor del trabajo donde se pueda sentar que no esté cerca de la máquina expendedora?\n' +
+            'De las cosas que no puedo evitar, ¿puedo hacer algo distinto que sea más saludable? Obviamente, usted no puede evitar todas las situaciones que desencadenan hábitos de alimentación poco saludables, como las reuniones de trabajo. En estas circunstancias, evalúe sus opciones. ¿Podría sugerir o traer refrigerios y bebidas saludables? ¿Podría ofrecerse para tomar notas para distraer su atención de esos refrigerios? ¿Podría sentarse más alejado de la comida para que no le sea fácil agarrar algo? ¿Podría comer un refrigerio saludable antes de la reunión?\n' +
+            'Substituya los hábitos poco saludables con nuevos hábitos saludables. Por ejemplo: al reflexionar sobre sus hábitos de alimentación, puede ser que se percate de que come demasiado rápido cuando está solo. Para contrarrestar esto, póngase de acuerdo para almorzar todas las semanas con un compañero de trabajo o invite a cenar a un vecino una noche a la semana. Otras estrategias pueden ser colocar los cubiertos sobre el platillo entre bocados o minimizar otras distracciones (como ver las noticias a la hora de cenar) con las que no podemos prestar atención al tiempo que tardamos en comer o la cantidad de alimentos.\n' +
+            'Aquí hay más ideas para sustituir los hábitos poco saludables:\n' +
+            'Coma más despacio. Si come muy rápido, puede ser que se acabe toda la comida del plato sin darse cuenta de que ya se había llenado.\n' +
+            'Coma solamente cuando en verdad tenga hambre, en lugar de comer porque está cansado, angustiado o con cualquier otro estado de ánimo. Si se da cuenta de que no está comiendo con hambre sino porque se siente aburrido o angustiado, póngase a hacer otra cosa que no implique comer. Puede ser que se sienta mejor con una caminata rápida o llamando por teléfono a un amigo.\n' +
+            'Planifique las comidas con tiempo para asegurarse de que serán saludables y bien balanceadas.',
+    },
+    ,
+    {
+        id: 17,
+        category: 'nutricion',
+        name: 'UNA NUTRICION PARA EL CEREBRO',
+        show: true,
+        img_card: 'https://www.farmaceuticonline.com/wp-content/uploads/2019/04/Cervell-i-alimentaci%C3%B3-1170x819.jpg',
+        subtitle: 'Decía Virginia Woolf que uno no podía pensar bien, amar bien, dormir bien, si no había cenado bien.\n' +
+            'El cerebro es una intrincada maraña de neuronas o células nerviosas y cables eléctricos interconectados mediante unas sustancias químicas muy simples, cuya misión es transmitir mensajes de una célula nerviosa a otra.',
+        img_content: 'https://www.fen.org.es/blog/wp-content/uploads/2015/03/nutricion-para-tu-cerebro--720x350.jpg',
+        text_content: 'El cerebro representa sólo el 2% de nuestro peso: sin embargo, necesita alrededor del 20% de la energía que ingerimos. Si nosotros “somos lo que comemos”, entonces nuestro cerebro también dependerá de lo que comamos.\n' +
+            '\n' +
+            'Podemos mejorar la salud y las funciones del cerebro a través de la alimentación.\n' +
+            'La principal energía que necesita el cerebro para funcionar es la glucosa que proviene de comer alimentos ricos en carbohidratos, como cereales, legumbres, frutas y vegetales, así como productos lácteos. Pero, además, necesita otros nutrientes esenciales: vitaminas, minerales, ácidos grasos, proteínas…\n' +
+            'Un exceso o un defecto del nutriente necesario puede afectar al sistema nervioso. Una alimentación desequilibrada puede producir carencias específicas de algunos de los nutrientes, que se manifiestan mediante síntomas o sensaciones como apatía, desgana, irritabilidad, nerviosismo, cansancio, falta de atención, fallos de memoria, de concentración e incluso depresión.\n' +
+            '¿La DIETA AFECTA a la FUNCIÓN CEREBRAL?\n' +
+            'Sabemos que la nutrición es importante, pero aún lo es más para la función cerebral.\n' +
+            '\n' +
+            'Nuestro cerebro, como cualquier parte de nuestro cuerpo, necesita alimentarse. En función de los nutrientes que reciba, su actividad será diferente.\n' +
+            'La composición de cada comida tiene un efecto directo en la producción de las señales químicas del cerebro. Estas sustancias, responsables de la transmisión de información a lo largo del sistema nervioso, son los llamados neurotransmisores, y pueden modularse en parte por nuestra alimentación. Por medio de ella podríamos influir sobre nuestro humor y comportamiento, ayudar a aliviar la depresión, la ansiedad, la neurosis y los trastornos del sueño.\n' +
+            'Cada uno de los neurotransmisores existentes —existen unos 50 diferentes— tiene una misión específica. Para formarlos, se requieren determinados nutrientes que proporcionan los diferentes alimentos. Por ejemplo, los lácteos (quesos, leche), huevos, pescados, carnes, legumbres, frutos secos y frutas (plátano, piña, aguacate) aportan una sustancia denominada triptófano, imprescindible para sintetizar un neurotransmisor denominado serotonina, que está relacionada con las emociones, la depresión, el control de la temperatura, del hambre y del sueño. Así, un déficit de serotonina implica un fallo en los circuitos que requieren esta sustancia.\n' +
+            '¿QUÉ CONSEGUIREMOS comiendo correctamente?\n' +
+            'Mejorará nuestro estado de ánimo,\n' +
+            'pensaremos más rápido,\n' +
+            'tendremos más memoria,\n' +
+            'nos podremos concentrar mejor.\n' +
+            'Éstos son sólo unos pequeños ejemplos de lo que los alimentos pueden hacer por nuestro cerebro.\n' +
+            '\n' +
+            'Cuando pensemos en alimentación, no debemos pensar sólo en diabetes, enfermedades cardiovasculares, obesidad, etc.., sino también en el órgano más importante, el cerebro.\n' +
+            '\n' +
+            '¿QUÉ tenemos QUE COMER?\n' +
+            'Hay que intentar comer más alimentos ricos en carbohidratos con un poco de proteína por la noche; ayudarán a relajarse y a dormir mejor.\n' +
+            'Deben consumirse ácidos grasos esenciales, ya sea en forma de pescado azul o de suplementos dietéticos.\n' +
+            'Es deseable incluir alimentos ricos en proteínas en la dieta. Las proteínas son esenciales para fabricar los neurotransmisores que son vitales para los procesos cerebrales. Se debe intentar que la comida del mediodía sea más rica en proteínas, para optimizar la mente y mantenerse más despierto por la tarde.\n' +
+            'Hay que comer alimentos ricos en vitaminas y minerales; poseen la llave para que muchas reacciones puedan llevarse a cabo.\n' +
+            'Beber 1,5 o 2 litros de agua al día ayuda a mantener el cerebro bien hidratado.\n' +
+            'Para oxigenar el cerebro, son convenientes el ejercicio y las comidas ligeras y frecuentes.\n' +
+            'CONSEJOS\n' +
+            'La principal energía que necesita el cerebro para funcionar es la glucosa, que proviene de comer alimentos ricos en carbohidratos.\n' +
+            'Por medio de la alimentación, podríamos mejorar el humor y el comportamiento, ayudando a aliviar la depresión, la ansiedad, la neurosis y los trastornos del sueño.\n',
     },
 
 
