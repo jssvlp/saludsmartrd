@@ -4,7 +4,7 @@ const categories = [
 
     {
         path: '/categorias/medicina',
-        name: 'MEIDICINAS',
+        name: 'MEDICINAS',
         show:false,
         url: 'https://firebasestorage.googleapis.com/v0/b/saludsmart-9edc2.appspot.com/o/salud-medicina-tablet.jpeg?alt=media&token=a065a2fd-4028-4ec1-a870-c935ee92c84f'
     },

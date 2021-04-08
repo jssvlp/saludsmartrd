@@ -18,8 +18,10 @@ function App() {
           <Switch>
               {
                   Routers.map((data,i)=>
-                      <Route path={data.path} key={i}  exact={data.exact} render={ props =>(
+                      <Route path={data.path} key={i}   exact={data.exact} render={ props =>(
+
                           <Body>
+                              {window.scrollTo(0, 0)}
                               <data.component props={props}/>
                           </Body>
                       )} />
