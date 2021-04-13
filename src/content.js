@@ -165,7 +165,7 @@ const content = [
     {
         id:4,
         category: 'noticias',
-        name: 'Cual es el problema de la vacuna de astrazeneca(VACUNA RUSSA)',
+        name: 'Los problemas de la vacuna de astrazeneca(VACUNA RUSSA), TIENES QUE SABERLO!',
         show:true,
         img_card: 'https://ichef.bbci.co.uk/news/800/cpsprodpb/CD8B/production/_117591625_gettyimages-1231469046.jpg',
         subtitle:'En las últimas semanas han aparecido diferentes noticias en los medios de comunicación que relacionaban la vacunación frente a la covid-19 con casos mortales.',
