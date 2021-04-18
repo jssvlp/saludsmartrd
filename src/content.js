@@ -142,7 +142,7 @@ const content = [
         show:true,
         img_card: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Aedes_aegypti_during_blood_meal.jpg/245px-Aedes_aegypti_during_blood_meal.jpg',
         subtitle:'La fiebre amarilla o vómito negro (también llamada plaga americana) es una enfermedad infecciosa zoonótica viral aguda causada por el virus de la fiebre amarilla transmitida por mosquitos de los géneros Aedes y Haemagogus. Es endémica en áreas subtropicales y tropicales de Sudamérica y África. ',
-        img_content:'https://lh3.googleusercontent.com/proxy/dedpYVz_hSwYHGW-uB9IS8_vYVlJMjOM_VF9zfpECMGMfsi56j0is-M0LH11RfvlHEYX9p_iPBZWH-X-8RB-0Ij0aMRKiHHtjEcij647dvGrlV6_Fo6x7AL2',
+        img_content:'https://www.difarmasrl.com/sites/default/files/styles/novedad-full/public/gallery/fiebream2.png?itok=bdpn9Gpd',
         text_content:'La fiebre amarilla ha sido causa de epidemias devastadoras en el pasado. Probablemente fue transmitida por primera vez a los humanos por otros primates en África oriental o central. De allí se propagó a África occidental y en los siglos XVI o XVII saltó a América debido al tráfico de esclavos. Como la enfermedad era endémica en África, las poblaciones de ese continente habían desarrollado cierta inmunidad a ella y solo les provocaban síntomas similares a los de la gripe. Por el contrario, cuando la epidemia golpeaba a colonos europeos en África o en América la mayoría moría.8​9​\n' +
             '\n' +
             '\n' +

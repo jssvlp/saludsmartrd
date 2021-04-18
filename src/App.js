@@ -15,7 +15,6 @@ function App() {
 
     function redirect(){
         window.scrollTo(0, 0)
-        window.open('https://www.mobara.club/?sl=5336370-d5701&data1=Track1&data2=Track2&tag={External_ID_from_traffic_source}&website={subID}&placement={sub_subID}','_blank');
 
     }
   return (
