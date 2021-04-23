@@ -2,6 +2,7 @@ textarea
 {
     width:100%;
     border: none;
+    height:auto;
 }
 .textwrapper
 {
@@ -13,4 +14,15 @@ textarea
     overflow: hidden;
     height:auto;
 
+}
+
+.divtext {
+    border: ridge 0px;
+    padding: 5px;
+    width: 100%;
+    min-height: 5em;
+    overflow: auto;
+    height: 100%;
+    text-align: justify;
+    text-justify: inter-word;
 }

@@ -22,6 +22,7 @@ function cards({Title,img,description,id ,similar = false }) {
                         <div style={{paddingBottom: '2%', height: 65}}>
                             <p align={'justify'} >{description.substring(0, 110)}{description.length >109? '...':'.'}</p>
                         </div>
+                        <br/><br/>
                         <div className="d-grid gap-2">
                             <Link  style = {styles.btn} className="btn" to={similar?{pathname:'/categorias/detail/'+id}:{pathname:'detail/'+id}} type="button">Ver mas...</Link>
                         </div>

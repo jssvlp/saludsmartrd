@@ -6,13 +6,15 @@ import "./header.css"
 import routers from '../../router'
 import {React, useState} from 'react'
 import Search from "../search/search";
+import images from "../../img/ejercicio1.jpeg"
 function Nav() {
 
     const [select, setSelect] = useState('')
     let pathname = window.location.pathname.substring(1)
     console.log(select)
     return (
-    <header>
+    <header style={{background: 'linear-gradient(rgb(57, 163, 4), rgba(0, 0, 0, 0.6)),\n' +
+            '    url("'+images+'")', backgroundSize: 'cover'}}>
             <section style={{padding:'10px', width:'100%' , flexDirection: 'row'}}>
                 <nav className="navbar navbar-expand-lg navbar-light" style={{color:"white"}}>
                     <div className="container-fluid">

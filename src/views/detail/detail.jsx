@@ -24,6 +24,10 @@ function Detail(){
             </div>
         )
     }
+    function textAreaAdjust(element) {
+        element.height = "1px";
+        element.height = (25+element.scrollHeight)+"px";
+    }
     return(
         <div>
 
@@ -33,9 +37,9 @@ function Detail(){
                     <img src={content.img_content} alt={content.name} className={'img-fluid mx-auto d-block'}/>
             </div>
         </div>
-        <textarea className={'textwrapper'} rows={35} readOnly={true} >
-            {content.text_content}
-        </textarea>
+        <div className={'divtext'} dangerouslySetInnerHTML={{__html: content.text_content}}>
+
+        </div>
             <br/><br/><br/>
             <Headertext title={'contenido similares'}/><br/><br/>
             <div className={'row'}>
