@@ -5,6 +5,8 @@ import Categories from "./views/categories/content_categories";
 import Nosotros from "./views/aboutUs/aboutUs";
 import Contacto from "./views/contacto/Contacto";
 import Detail from "./views/detail/detail";
+import Sorteo from "./views/sorteos/sorteos";
+
 
 const routers = [
 

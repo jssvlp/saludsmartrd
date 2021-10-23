@@ -4,6 +4,8 @@ import styles from "../cards/style"
 import {
     Link
 } from "react-router-dom";
+import { api } from "../../config";
+
 
 function cards({Title,img,description,id ,similar = false }) {
 
@@ -18,7 +20,7 @@ function cards({Title,img,description,id ,similar = false }) {
                         <div style={{paddingBottom: '2%', height: 65}}>
                             <h6 className="card-title"  style = {styles.title}>{Title.toUpperCase()}</h6><br/>
                         </div>
-                        <img width="100%" height={"200"} className=" mx-auto d-block"  src={img}/><br/>
+                        <img width="100%" height={"200"} className=" mx-auto d-block"  src={api+img}/><br/>
                         <div style={{paddingBottom: '2%', height: 65}}>
                             <p align={'justify'} >{description.substring(0, 110)}{description.length >109? '...':'.'}</p>
                         </div>

@@ -1,6 +1,6 @@
 import content from "../content";
-import Card from "../components/cards/cards"
-import Cards from "../components/cards/cards";
+import { api } from "../config";
+
 
 function isExist(data){
     for (const key in content) {
@@ -23,32 +23,18 @@ function getContent(id){
 
 }
 
-function getContentSimilar(id,category){
-    let result = content.filter((data) =>{
-        return data.category === category && data.id !== parseInt(id)
+function setHostImage(text) {
+    return text.replace("](/","]("+api+"/");
+}
+
+function getContentSimilar(categories = [], id){
+    console.log(`categories`, categories)
+    let result = typeof categories === 'object' && categories.filter((data) =>{
+        return data.id !== id
     })
 
      let arrayFull = result.length>0? result.slice(0, 3) : result;
-    if(arrayFull.length>0){
-        return (
-            arrayFull.map((data,i)=>
-                    <Cards
-                        Title ={data.name}
-                        img={data.img_card}
-                        description ={data.subtitle}
-                        similar={true}
-                        id={data.id} />
-            )
-        )
-    }
-    if(arrayFull.length===0){
-        return (
-            <div className={'text-center'}>
-                <h4>No hay contenido similares</h4>
-            </div>
-        )
-    }
-    console.log(result)
+    return arrayFull;
 }
 
 
@@ -56,5 +42,6 @@ function getContentSimilar(id,category){
 export default {
     isExist,
     getContent,
-    getContentSimilar
+    getContentSimilar,
+    setHostImage
 }

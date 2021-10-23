@@ -5,19 +5,32 @@ import Headertext from "../../components/headertext/headertext";
 import SvgMedicin1 from "../../img/medicna1.svg"
 import SvgMedicina2 from "../../img/medicina2.svg"
 import SvgMedicina3 from "../../img/MEDICINA3.svg"
+import React,{ useEffect, useState } from "react";
+import {Categories} from "../../services/collections/index"
 
 function Home() {
+
+
+    const [category,setCategory] = useState([])
+
+
+    useEffect(async ()=>{
+        const result = await Categories.getAllCategories();
+        setCategory(result.data);
+    },[])
+
     return (
        <div>
            <div className="container">
                <br/><br/><br/>
                <div className={'row'}>
-                   {categories.map((data,i)=>
+                   {category.map((data,i)=>
                        <div className={"col-md-4"}>
                            <Category
-                               path={data.path}
-                               name={data.name}
-                               img={data.url}
+                               path={'/categorias/'+data.nombre}
+                               name={data.nombre}
+                               id={data.id}
+                               img={data.Imagen.formats.thumbnail.url}
                            />
                        </div>
                    )}
