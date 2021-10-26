@@ -2,6 +2,7 @@ version: '3'
 services:
   365app:
     container_name: saludsmartrd
+    restart: always
     build:
       context: .
       dockerfile: Dockerfile
